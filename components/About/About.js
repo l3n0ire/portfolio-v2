@@ -25,8 +25,8 @@ function About() {
                     </a>
                 </p>
                 <p className="mt-7 text-gray-600">
-                    I'm an aspiring software developer with experience in both
-                    frontend UX design and backend API development.
+                    I&apos;m an aspiring software developer with experience in
+                    both frontend UX design and backend API development.
                     <br /> I describe myself as someone who is ambitious, a
                     quick learner, and has a passion for developing software
                     with a positive social impact.
