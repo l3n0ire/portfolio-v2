@@ -6,15 +6,15 @@ import About from "../components/About/About";
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div className="relative min-h-screen lg:flex">
             <Head>
                 <title>Colin Lin</title>
                 <meta name="description" content="Colin Lin's Portfolio" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <main className={styles.main}>
-                <h1 className={styles.title}>My Portfolio</h1>
+            <main className="flex-1 p-10 px-16">
+                <h1 className="text-2xl font-bold">My Portfolio</h1>
                 <About />
             </main>
 

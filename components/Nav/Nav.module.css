@@ -1,15 +1,4 @@
-.nav {
-    @apply bg-gray-700 w-64 text-blue-100 p-4 text-center;
-}
-
-.profilePic {
-    @apply rounded-full;
-}
-
-.navBody {
-    @apply mt-48;
-}
 
 .section {
-    @apply mt-5 block;
+    @apply text-lg mt-5 block hover:text-white;
 }
