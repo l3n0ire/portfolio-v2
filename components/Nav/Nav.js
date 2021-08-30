@@ -7,7 +7,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 
 function Nav() {
-    const [isHidden, setIsHidden] = useState(false);
+    const [isHidden, setIsHidden] = useState(true);
     const [windowDimensions, setWindowDimensions] = useState({});
 
     useEffect(() => {
