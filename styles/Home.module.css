@@ -1,0 +1,11 @@
+.container {
+  @apply relative min-h-screen flex;
+}
+
+.main {
+  @apply flex-1 p-10 px-16;
+}
+
+.title {
+  @apply text-2xl font-bold;
+}
