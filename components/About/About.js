@@ -6,8 +6,8 @@ import Link from "next/link";
 function About() {
     return (
         <section id="#about">
-            <div className="mt-32 text-lg">
-                <h1 className="text-8xl font-bold">
+            <div className=" mt-7 lg:mt-56 text-lg">
+                <h1 className="text-7xl lg:text-8xl font-bold">
                     Colin <span className="text-blue-800"> Lin</span>
                 </h1>
                 <p className="text-2xl font-bold mt-1">Software Engineer</p>

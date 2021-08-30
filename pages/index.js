@@ -13,8 +13,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <main className="flex-1 p-10 px-16">
-                <h1 className="text-2xl font-bold">My Portfolio</h1>
+            <main className="flex-1 p-7 px-7 md:px-16">
                 <About />
             </main>
 
