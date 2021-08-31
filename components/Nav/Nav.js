@@ -12,7 +12,7 @@ function Nav() {
 
     useEffect(() => {
         function handleResize() {
-            let  { innerWidth: width, innerHeight: height } = window;
+            let { innerWidth: width, innerHeight: height } = window;
             setWindowDimensions({ width, height });
         }
         handleResize();
@@ -22,7 +22,7 @@ function Nav() {
 
     return (
         <nav className="bg-gray-700 lg:w-64 text-blue-100 p-4 text-center">
-            <div className="lg:mt-48 flex flex-wrap justify-center">
+            <div className="lg:mt-48 flex flex-wrap justify-center lg:fixed">
                 <div className="hidden lg:block">
                     <Image
                         src={profilePic}
