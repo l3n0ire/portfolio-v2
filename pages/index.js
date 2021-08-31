@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Nav from "../components/Nav/Nav";
 import About from "../components/About/About";
 import Experience from "../components/Experience/Experience";
+import Education from "../components/Education/Education";
 import data from "../data/data";
 
 export default function Home() {
@@ -18,14 +19,21 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <main className="flex-1 py-12 lg:py-0 px-7 md:px-16">
+            <main className="flex-1  lg:py-0 px-7 md:px-16 flex-col">
                 <About />
-                <div id="experience">
+                <div id="experience" className="min-h-screen">
                     <hr />
-                    <h1 className="text-5xl font-semibold py-8 lg:py-12">
+                    <h1 className={styles.sectionTitle}>
                         Experience
                     </h1>
                     {experiences}
+                </div>
+                <div id="education" className="min-h-screen">
+                    <hr />
+                    <h1 className={styles.sectionTitle}>
+                        Education
+                    </h1>
+                    <Education />
                 </div>
             </main>
 

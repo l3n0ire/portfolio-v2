@@ -20,6 +20,10 @@ function Nav() {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
+    const handleClick = ()=>{
+        setIsHidden(true);
+    }
+
     return (
         <nav className="bg-gray-700  text-blue-100 p-4 text-center fixed lg:static w-full lg:w-64 lg:block">
             <div className="lg:mt-48 flex flex-wrap justify-center lg:fixed">
@@ -53,19 +57,19 @@ function Nav() {
                     }}
                 >
                     <Link href="#about">
-                        <a className={styles.section}>About</a>
+                        <a className={styles.section} onClick={handleClick}>About</a>
                     </Link>
                     <Link href="#experience">
-                        <a className={styles.section}>Experience</a>
+                        <a className={styles.section} onClick={handleClick}>Experience</a>
                     </Link>
                     <Link href="#education">
-                        <a className={styles.section}>Education</a>
+                        <a className={styles.section} onClick={handleClick} >Education</a>
                     </Link>
                     <Link href="#projects">
-                        <a className={styles.section}>Projects</a>
+                        <a className={styles.section} onClick={handleClick}>Projects</a>
                     </Link>
                     <Link href="#skills">
-                        <a className={styles.section}>Skills</a>
+                        <a className={styles.section} onClick={handleClick}>Skills</a>
                     </Link>
                 </div>
             </div>

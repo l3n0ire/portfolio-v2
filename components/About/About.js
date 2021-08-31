@@ -5,8 +5,8 @@ import Link from "next/link";
 
 function About() {
     return (
-        <section className="h-screen">
-            <div id="about" className=" pt-7 lg:pt-60 text-md lg:text-lg">
+        <section id="about" className="h-screen">
+            <div  className=" pt-20 lg:pt-60 text-md lg:text-lg">
                 <h1 className="text-6xl lg:text-8xl font-bold">
                     Colin <span className="text-blue-800"> Lin</span>
                 </h1>
