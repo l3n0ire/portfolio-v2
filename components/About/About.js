@@ -5,12 +5,14 @@ import Link from "next/link";
 
 function About() {
     return (
-        <section id="#about" className="h-screen">
-            <div className=" pt-7 lg:pt-60 text-md lg:text-lg">
+        <section className="h-screen">
+            <div id="about" className=" pt-7 lg:pt-60 text-md lg:text-lg">
                 <h1 className="text-6xl lg:text-8xl font-bold">
                     Colin <span className="text-blue-800"> Lin</span>
                 </h1>
-                <p className="text-xl lg:text-2xl font-bold mt-1">Software Engineer</p>
+                <p className="text-xl lg:text-2xl font-bold mt-1">
+                    Software Engineer
+                </p>
                 <p className="text-lg lg:text-xl font-medium mt-1">
                     Computer Science Co-op at University of Toronto
                 </p>
