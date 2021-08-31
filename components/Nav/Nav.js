@@ -21,7 +21,7 @@ function Nav() {
     }, []);
 
     return (
-        <nav className="bg-gray-700 lg:w-64 text-blue-100 p-4 text-center">
+        <nav className="bg-gray-700  text-blue-100 p-4 text-center fixed lg:static w-full lg:w-64 lg:block">
             <div className="lg:mt-48 flex flex-wrap justify-center lg:fixed">
                 <div className="hidden lg:block">
                     <Image

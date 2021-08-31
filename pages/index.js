@@ -18,7 +18,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Nav />
-            <main className="flex-1 px-7 md:px-16">
+            <main className="flex-1 py-12 lg:py-0 px-7 md:px-16">
                 <About />
                 <div id="experience">
                     <hr />
