@@ -10,7 +10,7 @@ function Experience(props) {
                         {props.title}
                     </p>
                     <a
-                        className="text-lg font-semibold lg:text-xl text-gray-600 hover:text-gray-400"
+                        className="text-lg font-semibold lg:text-xl text-blue-800 hover:text-blue-400"
                         href={props.link}
                         target="_blank"
                         rel="noreferrer"
@@ -18,12 +18,14 @@ function Experience(props) {
                         {props.company}
                     </a>
                 </div>
-                <p className="flex-grow-0 font-semibold text-blue-800">
+                <p className="flex-grow-0 font-semibold text-gray-500">
                     {props.date}
                 </p>
             </div>
 
-            <ul className="mt-5 text-md lg:text-lg list-disc px-8">{desc}</ul>
+            <ul className="mt-5 text-md lg:text-lg list-disc px-8 text-gray-600">
+                {desc}
+            </ul>
         </div>
     );
 }
