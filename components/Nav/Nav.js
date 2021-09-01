@@ -1,10 +1,11 @@
 import styles from "./Nav.module.css";
 import Image from "next/image";
-import profilePic from "../../public/profilePic.jpg";
+import profilePic from "../../public/images/profilePic.jpg";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
+import Scrollspy from "react-scrollspy";
 
 function Nav() {
     const [isHidden, setIsHidden] = useState(true);
@@ -20,13 +21,13 @@ function Nav() {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    const handleClick = ()=>{
+    const handleClick = () => {
         setIsHidden(true);
-    }
+    };
 
     return (
         <nav className="bg-gray-700  text-blue-100 p-4 text-center fixed lg:static w-full lg:w-64 lg:block">
-            <div className="lg:mt-48 flex flex-wrap justify-center lg:fixed">
+            <div className="lg:mt-48 lg:w-56 flex flex-wrap justify-center lg:fixed">
                 <div className="hidden lg:block">
                     <Image
                         src={profilePic}
@@ -56,21 +57,55 @@ function Nav() {
                                 : "block",
                     }}
                 >
-                    <Link href="#about">
-                        <a className={styles.section} onClick={handleClick}>About</a>
-                    </Link>
-                    <Link href="#experience">
-                        <a className={styles.section} onClick={handleClick}>Experience</a>
-                    </Link>
-                    <Link href="#education">
-                        <a className={styles.section} onClick={handleClick} >Education</a>
-                    </Link>
-                    <Link href="#projects">
-                        <a className={styles.section} onClick={handleClick}>Projects</a>
-                    </Link>
-                    <Link href="#skills">
-                        <a className={styles.section} onClick={handleClick}>Skills</a>
-                    </Link>
+                    <Scrollspy
+                        items={[
+                            "about",
+                            "experience",
+                            "education",
+                            "projects",
+                            "skills",
+                        ]}
+                        currentClassName="font-bold mt-5 block text-white "
+                    >
+                        <li><a className={styles.navLink}
+                            href="#about"
+                            onClick={handleClick}
+                        >
+                            About
+                        </a></li>
+
+                        <li><a
+                            href="#experience"
+                            className={styles.navLink}
+                            onClick={handleClick}
+                        >
+                            Experience
+                        </a></li>
+
+                        <li><a
+                            href="#education"
+                            className={styles.navLink}
+                            onClick={handleClick}
+                        >
+                            Education
+                        </a></li>
+
+                        <li><a
+                            href="#projects"
+                            className={styles.navLink}
+                            onClick={handleClick}
+                        >
+                            Projects
+                        </a></li>
+
+                        <li><a
+                            href="#skills"
+                            className={styles.navLink}
+                            onClick={handleClick}
+                        >
+                            Skills
+                        </a></li>
+                   </Scrollspy>
                 </div>
             </div>
         </nav>

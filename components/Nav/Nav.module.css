@@ -1,4 +1,7 @@
+.navLink {
+    @apply text-lg mt-5 block transition-transform duration-100 ease-in-out  hover:text-white;
+}
 
-.section {
-    @apply text-lg mt-5 block hover:text-white;
+.activeNavLink {
+    @apply text-lg mt-5 block hover:text-red-400;
 }

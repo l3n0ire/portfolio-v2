@@ -24,5 +24,27 @@ let data = {
             ],
         },
     ],
+    projects: [
+        {
+            title: "CourierU",
+            image: "courierU.png",
+            desc: "Service for foodbanks to coordinate deliveries during the COVID-19 pandemic while maintaing social distancing",
+            demoLink: "https://courieru.herokuapp.com/",
+            codeLink: "https://github.com/l3n0ire/courieru",
+        },
+        {
+            title: "Success Stories of New Canadians",
+            image: "successStories.png",
+            desc: "Platform for new immigrants to read about and share their experiences of coming to Canada",
+            demoLink: "https://success-stories-of-new-canadians.netlify.app/",
+            codeLink: "https://github.com/l3n0ire/PEAR-Impact-Project",
+        },
+        {
+            title: "ManageU",
+            image: "manageU.png",
+            desc: "A discord bot that helps university students keep track of important dates for their courses",
+            codeLink: "https://github.com/l3n0ire/pythonDiscordBot",
+        },
+    ],
 };
 export default data;
