@@ -27,7 +27,7 @@ let data = {
     projects: [
         {
             title: "AfriConnect",
-            image: "afriConnect.png",
+            image: "africonnect.png",
             desc: "Platform for African entrepreneurs to network and access online resources. Key features include a discussion forum, direct messaging and profile creation ",
             demoLink: "https://africonnect.netlify.app/",
             codeLink: "https://github.com/team-nov/team-nov-production",
