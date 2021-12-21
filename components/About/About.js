@@ -11,7 +11,7 @@ function About() {
                     Colin <span className="text-blue-800"> Lin</span>
                 </h1>
                 <p className="text-xl lg:text-2xl font-bold mt-1">
-                    Software Engineer
+                    Cloud Full Stack Engineer
                 </p>
                 <p className="text-lg lg:text-xl font-medium mt-1">
                     Computer Science Co-op at University of Toronto

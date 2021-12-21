@@ -1,9 +1,30 @@
 let data = {
     experiences: [
         {
+            title: "Cloud Full Stack Engineer",
+            company: "HSBC",
+            date: "December 2021 - Present",
+            link: "https://www.hsbc.ca/",
+            desc: [
+                "Developed a Cloud based web app for product onboarding using React and Spring Boot.",
+                "Worked closely with a cross time-zone Agile Scrum team to support systems critical to Retail Banking.",
+            ],
+        },
+        {
+            title: "Software Developer",
+            company: "University Of Toronto Scarborough",
+            date: "September 2021 - Present",
+            link: "https://digital.utsc.utoronto.ca/portfolio/mediacat/",
+            desc: [
+                "Developed data visualizations for a research project using Python, NumPy, pandas, and Matplotlib",
+                "Worked closely with other developers resolve critical bugs and improve the efficiency of the Python website crawler",
+                "Reduced data processing time by 50% by distributing the workload across multiple threads",
+            ],
+        },
+        {
             title: "Software Engineer",
             company: "UofT Hatchery",
-            date: "May 2021 - Present",
+            date: "May 2021 - October 2021",
             link: "https://hatchery.engineering.utoronto.ca/",
             desc: [
                 "Developed time-saving tools for the administrator dashboard using Vue.js, PHP, and WordPress",

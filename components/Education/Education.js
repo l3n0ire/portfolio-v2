@@ -15,11 +15,11 @@ function Education() {
                 </a>
                 <div className="mt-4 text-lg">
                     <p>Computer Science, Software Engineering Specialist</p>
-                    <p>GPA: 3.93</p>
+                    <p>GPA: 3.92</p>
                 </div>
             </div>
             <p className="flex-grow-0 font-semibold text-gray-500">
-                Sept 2019 - Present
+                Sept 2019 - June 2023
             </p>
         </div>
     );
