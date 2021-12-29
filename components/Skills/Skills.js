@@ -17,7 +17,7 @@ function Skills(props) {
             <div className="bg-white lg:max-w-lg mb-12 shadow-lg  hover:shadow-xl transition duration-500 rounded-lg">
                 <div className="rounded-t-lg w-full bg-gradient-to-r from-red-500 to-yellow-500 p-4">
                     <p className="font-bold text-xl lg:text-2xl text-white">
-                        Frameworks
+                        Frameworks and Libraries
                     </p>
                 </div>
                 <div className="p-4 py-6">

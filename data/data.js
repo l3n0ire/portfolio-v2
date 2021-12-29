@@ -48,34 +48,34 @@ let data = {
     projects: [
         {
             title: "AfriConnect",
-            image: "africonnect.png",
+            image: "africonnect.jpg",
             desc: "Platform for African entrepreneurs to network and access online resources. Key features include a discussion forum, direct messaging and profile creation ",
             demoLink: "https://africonnect.netlify.app/",
             codeLink: "https://github.com/team-nov/team-nov-production",
         },
         {
             title: "CourierU",
-            image: "courierU.png",
+            image: "courierU.jpg",
             desc: "Service for foodbanks to coordinate deliveries during the COVID-19 pandemic while maintaing social distancing",
             demoLink: "https://courieru.herokuapp.com/",
             codeLink: "https://github.com/l3n0ire/courieru",
         },
         {
             title: "Success Stories of New Canadians",
-            image: "successStories.png",
+            image: "successStories.jpg",
             desc: "Platform for new immigrants to read about and share their experiences of coming to Canada",
             demoLink: "https://success-stories-of-new-canadians.netlify.app/",
             codeLink: "https://github.com/l3n0ire/PEAR-Impact-Project",
         },
         {
             title: "ManageU",
-            image: "manageU.png",
+            image: "manageU.jpg",
             desc: "A discord bot that helps university students keep track of important dates for their courses",
             codeLink: "https://github.com/l3n0ire/pythonDiscordBot",
         },
         {
             title: "Anime Update Tracker",
-            image: "animeUpdateTracker.png",
+            image: "animeUpdateTracker.jpg",
             desc: "Chrome Extension that helps users keep track of their favourite anime and pick up where they last left off",
             demoLink:
                 "https://chrome.google.com/webstore/detail/anime-update-tracker/dfcboajkdkgolnlambnobofpdmejbkmb",
@@ -83,14 +83,14 @@ let data = {
         },
         {
             title: "Physics Playground",
-            image: "physicsPlaygroundU.png",
+            image: "physicsPlaygroundU.jpg",
             desc: "Virtual physics lab simulator designed to help students learn remotely",
             demoLink: "https://physicsplaygroundu.netlify.app/",
             codeLink: "https://github.com/l3n0ire/PhysicsPlaygroundUnity",
         },
         {
             title: "Recycle Rush",
-            image: "recycleRush.png",
+            image: "recycleRush.jpg",
             desc: "Non-Profit mobile game aimed to encourage recycling among youth",
             demoLink:
                 "https://play.google.com/store/apps/details?id=com.ColinLin.RecycleRush&hl=en",
@@ -98,14 +98,14 @@ let data = {
         },
         {
             title: "Teamfight UTSC",
-            image: "tftutsc.png",
+            image: "tftutsc.jpg",
             desc: "Website promoting the tournaments and socials for the Teamfight UTSC club as well as tutorials for beginners",
             demoLink: "https://tftutsc.netlify.app/",
             codeLink: "https://github.com/l3n0ire/TFT_UTSC",
         },
         {
             title: "Timetable Builder",
-            image: "ttb.png",
+            image: "ttb.jpg",
             desc: "Platform to help students plan out and visualize their course load for upcoming semesters",
             demoLink: "https://l3n0ire.github.io/TimetableBuilder/index.html",
             codeLink: "https://github.com/l3n0ire/TimetableBuilder",
@@ -115,7 +115,7 @@ let data = {
         languages:
             "Java, Python, C, HTML, CSS, JavaScript, TypeScript SQL, PHP",
         frameworks:
-            "Node.js, Express.js, Next.js, Vue.js, React, jQuery, Bootstrap, Tailwind CSS",
+            "Spring Boot, Node.js, Express.js, Next.js, Vue.js, React, Angular, jQuery, Bootstrap, Tailwind CSS, Pandas, NumPy",
         databases: "MongoDB, MySQL, PostgreSQL, Neo4j",
         concepts:
             "RESTful APIs, Object Oriented Programming, MVC Architecture, Microservices, Agile Scrum",

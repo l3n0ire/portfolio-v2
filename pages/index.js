@@ -10,8 +10,8 @@ import Skills from "../components/Skills/Skills";
 import data from "../data/data";
 
 export default function Home() {
-    let experiences = data.experiences.map((experience) => {
-        return <Experience key={experience.title} {...experience} />;
+    let experiences = data.experiences.map((experience,index) => {
+        return <Experience key={experience.title+index} {...experience} />;
     });
     let projects = data.projects.map((project) => {
         return <Project key={project.title} {...project} />;
