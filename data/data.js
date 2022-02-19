@@ -13,7 +13,7 @@ let data = {
         {
             title: "Software Developer",
             company: "University Of Toronto Scarborough",
-            date: "September 2021 - Present",
+            date: "September 2021 - February 2022",
             link: "https://digital.utsc.utoronto.ca/portfolio/mediacat/",
             desc: [
                 "Developed data visualizations for a research project using Python, NumPy, pandas, and Matplotlib",

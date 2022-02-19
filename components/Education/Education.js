@@ -15,7 +15,7 @@ function Education() {
                 </a>
                 <div className="mt-4 text-lg">
                     <p>Computer Science, Software Engineering Specialist</p>
-                    <p>GPA: 3.92</p>
+                    <p>GPA: 3.90</p>
                 </div>
             </div>
             <p className="flex-grow-0 font-semibold text-gray-500">
