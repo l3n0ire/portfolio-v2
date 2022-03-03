@@ -59,6 +59,9 @@ let data = {
             desc: "Service for foodbanks to coordinate deliveries during the COVID-19 pandemic while maintaing social distancing",
             demoLink: "https://courieru.herokuapp.com/",
             codeLink: "https://github.com/l3n0ire/courieru",
+            date:"May 2020",
+            projectType:"Project for ToHacks Hackathon",
+            descLong:"CourierU was a COVID-19 themed project that my team created for the TOHacks hackathon in May 2020. Our goal was to create a platform to help people access essentials such as food and toiletries while reducing their risk of exposure. Our team created a NodeJS web app to connect volunteer couriers and food banks. We utilized MongoDB Atlas to store user data and Mapbox API to generate optimized delivery routes for couriers. The result was an easy-to-use and accessible platform for food banks and volunteer drivers to coordinate deliveries. As lead developer of this project, I’ve gained a lot of experience working on both the frontend and backend of this web app. Through CourierU I was able to strengthen my skills in fullstack development and explore the amazing technologies and APIs in the market."
         },
         {
             title: "Success Stories of New Canadians",
@@ -66,12 +69,18 @@ let data = {
             desc: "Platform for new immigrants to read about and share their experiences of coming to Canada",
             demoLink: "https://success-stories-of-new-canadians.netlify.app/",
             codeLink: "https://github.com/l3n0ire/PEAR-Impact-Project",
+            date:"Jan 2020",
+            projectType:"Project for Azhar Laher - Professor at Seneca College",
+            descLong:"Success Stories of New Canadians was a project request from Azhar Laher, a professor at Seneca college. The goal of the project was to create a platform for immigrants to share their stories of coming to Canada. Our team created a scalable blog site solution using Gatsby and Netlify CMS. Using the Netlify CMS, the site administrator could upload text and pictures and Gatsby would automatically generate a blog post and update the site. The result was an intuitive platform for users and an easy to use CMS system for non-technical site administrators such as Azhar himself. As lead developer of this project, I’ve gain a lot of experience working with UI/Ux design as well as styling with CSS. Through Success stories of new Canadians I was able to strengthen my web development skills and gain experience working with real clients."
         },
         {
             title: "ManageU",
             image: "manageU.jpg",
             desc: "A discord bot that helps university students keep track of important dates for their courses",
             codeLink: "https://github.com/l3n0ire/pythonDiscordBot",
+            date:"Sept 2020",
+            projectType:"Personal Project for myself and my teammate",
+            descLong:"ManageU is a personal project that myself and my teammate developed to help us keep track of our school deadlines. Our goal was to create a chat bot that will send reminders for important deadlines and display our daily tasks. We developed a discord bot using Python and discord.py API. We stored course information and deadlines in the cloud using MongoDB Atlas and hosted the chat bot on Heroku. Using discord as the interface, allowed us to access Manage on all our devices, as well as the ably to receive push notification directly to out phones. The result was an easy to use, cross platform notification system which my teammate and I still use to keep track of our deadlines to date. Through ManageU I was able to learn asynchronous programming in python and gain experience managing a NoSQL database like MongoDB. This project is particularly significant to me since I was able to build a piece of software to solve a problem I faced in my daily life."
         },
         {
             title: "Anime Update Tracker",
@@ -80,6 +89,9 @@ let data = {
             demoLink:
                 "https://chrome.google.com/webstore/detail/anime-update-tracker/dfcboajkdkgolnlambnobofpdmejbkmb",
             codeLink: "https://github.com/l3n0ire/AnimeUpdateTracker",
+            date:"Nov 2020",
+            projectType:"Personal Project availible on the Chrome extension store",
+            descLong:"Anime Update Tracker is a personal project that I’ve developed to keep track of the episodes that I’ve watched. My goal was to create a Chrome extension that will automatically start tracking my progress in a show, when I start watching. I developed this chrome extension using JavaScript. I stored user data using the chrome’s storage feature and synchronized it with an online anime database called My Anime List. With this chrome extension, users could track their progress on all their chrome enabled devices, as well as the ability to resume where they last left off on supported sites. The result was an easy to use, cross platform anime tracker that is being used by over 160 active users across the world. Through Anime Update tracker, I was able to gain experience with asynchronous programming in JavaScript as well as experience with securing user data. This program was significant to me since it is the first project to have gained a large and active userbase."
         },
         {
             title: "Physics Playground",

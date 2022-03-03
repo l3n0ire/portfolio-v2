@@ -68,14 +68,14 @@ function Nav() {
                         currentClassName="font-bold mt-5 block text-white "
                     >
                         <li><a className={styles.navLink}
-                            href="#about"
+                            href="/#about"
                             onClick={handleClick}
                         >
                             About
                         </a></li>
 
                         <li><a
-                            href="#experience"
+                            href="/#experience"
                             className={styles.navLink}
                             onClick={handleClick}
                         >
@@ -83,7 +83,7 @@ function Nav() {
                         </a></li>
 
                         <li><a
-                            href="#education"
+                            href="/#education"
                             className={styles.navLink}
                             onClick={handleClick}
                         >
@@ -91,7 +91,7 @@ function Nav() {
                         </a></li>
 
                         <li><a
-                            href="#projects"
+                            href="/#projects"
                             className={styles.navLink}
                             onClick={handleClick}
                         >
@@ -99,7 +99,7 @@ function Nav() {
                         </a></li>
 
                         <li><a
-                            href="#skills"
+                            href="/#skills"
                             className={styles.navLink}
                             onClick={handleClick}
                         >
