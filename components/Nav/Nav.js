@@ -67,44 +67,55 @@ function Nav() {
                         ]}
                         currentClassName="font-bold mt-5 block text-white "
                     >
-                        <li><a className={styles.navLink}
+                        <li><Link 
                             href="/#about"
                             onClick={handleClick}
                         >
-                            About
-                        </a></li>
+                            <span className={styles.navLink}>
+                                About
+                            </span>
+                            
+                        </Link></li>
 
-                        <li><a
+                        <li><Link
                             href="/#experience"
                             className={styles.navLink}
                             onClick={handleClick}
                         >
-                            Experience
-                        </a></li>
+                            <span className={styles.navLink}>
+                                Experience
+                            </span>
+                        </Link></li>
 
-                        <li><a
+                        <li><Link
                             href="/#education"
                             className={styles.navLink}
                             onClick={handleClick}
                         >
-                            Education
-                        </a></li>
+                            <span className={styles.navLink}>
+                                Education
+                            </span>
+                        </Link></li>
 
-                        <li><a
+                        <li><Link
                             href="/#projects"
                             className={styles.navLink}
                             onClick={handleClick}
                         >
-                            Projects
-                        </a></li>
+                            <span className={styles.navLink}>
+                                Projects
+                            </span>
+                        </Link></li>
 
-                        <li><a
+                        <li><Link
                             href="/#skills"
                             className={styles.navLink}
                             onClick={handleClick}
                         >
-                            Skills
-                        </a></li>
+                            <span className={styles.navLink}>
+                                Skills
+                            </span>
+                        </Link></li>
                    </Scrollspy>
                 </div>
             </div>
