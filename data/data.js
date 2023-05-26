@@ -1,9 +1,20 @@
 let data = {
   experiences: [
     {
+      title: "Teaching Assistant",
+      company: "University of Toronto Scarborough",
+      date: "January 2023 - April 2023",
+      link: "https://www.utsc.utoronto.ca",
+      desc: [
+        "Developed highly effective Angular and CORS tutorials for CSCC09 Programming on the Web",
+        "Reinforced students’ understanding of web technologies, RESTful APIs, cloud deployment, and containerization with Docker",
+        "Honed communication, mentorship, and leadership skills to foster an engaging learning environment",
+      ],
+    },
+    {
       title: "Cloud Full Stack Engineer",
       company: "HSBC",
-      date: "December 2021 - Present",
+      date: "December 2021 - December 2022",
       link: "https://www.hsbc.ca/",
       desc: [
         "Developed cloud‑based web apps for HSBC Wealth Compass and US Product Onboarding using React and Redux",

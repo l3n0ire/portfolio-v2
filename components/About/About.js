@@ -18,7 +18,6 @@ function About() {
                 </p>
                 <p>
                     <span className="mr-1">Toronto ON |</span>
-                    <span className="mr-1">(647) 470-9183 |</span>
                     <a
                         href="mailto:colin.lin@mail.utoronto.ca"
                         className=" text-blue-800 font-semibold hover:text-blue-400"
