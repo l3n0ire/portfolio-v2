@@ -1,6 +1,16 @@
 let data = {
   experiences: [
     {
+      title: "Software Developer",
+      company: "Konrad Group",
+      date: "September 2023 - Present",
+      link: "https://www.konrad.com/",
+      desc: [
+        "Built new frontend interfaces using Next.js and Vue.js for major real estate and airline clients, with impact on 1 million+ users",
+        "Accelerated internal IT processes by 300% by automating manual tasks using Python and Selenium",
+      ],
+    },
+    {
       title: "Teaching Assistant",
       company: "University of Toronto Scarborough",
       date: "January 2023 - April 2023",
