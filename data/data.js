@@ -8,6 +8,7 @@ let data = {
       desc: [
         "Built new frontend interfaces using Next.js and Vue.js for major real estate and airline clients, with impact on 1 million+ users",
         "Accelerated internal IT processes by 300% by automating manual tasks using Python and Selenium",
+        "Mitigated fraudulent contest entries by implementing browser fingerprinting using JavaScript",
       ],
     },
     {
@@ -81,6 +82,11 @@ let data = {
     },
   ],
   projects: [
+    {
+      title: "TalkLab",
+      image: "talklab.jpg",
+      desc: "Tool for researchers to collect data to fine-tune large language models and study user interaction with AI chatbots",
+    },
     {
       title: "Codebook",
       image: "codebook.png",
