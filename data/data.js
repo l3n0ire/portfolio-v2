@@ -8,7 +8,6 @@ let data = {
       desc: [
         "Developed new frontend features for a major airline's flight booking application using Vue.js, impacting over 1 million users",
         "Built online contests and promotional pages for a major real estate client using Next.js and Contentful CMS",
-        "Built new frontend interfaces using Next.js and Vue.js for major real estate and airline clients, with impact on 1 million+ users",
         "Accelerated internal IT processes by 300% by automating manual tasks using Python and Selenium",
         "Mitigated fraudulent contest entries by implementing browser fingerprinting using JavaScript",
       ],
