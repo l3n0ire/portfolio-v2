@@ -8,118 +8,103 @@ import { useState, useEffect } from "react";
 import Scrollspy from "react-scrollspy";
 
 function Nav() {
-    const [isHidden, setIsHidden] = useState(true);
-    const [windowDimensions, setWindowDimensions] = useState({});
+  const [isHidden, setIsHidden] = useState(true);
+  const [windowDimensions, setWindowDimensions] = useState({});
 
-    useEffect(() => {
-        function handleResize() {
-            let { innerWidth: width, innerHeight: height } = window;
-            setWindowDimensions({ width, height });
-        }
-        handleResize();
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
+  useEffect(() => {
+    function handleResize() {
+      let { innerWidth: width, innerHeight: height } = window;
+      setWindowDimensions({ width, height });
+    }
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-    const handleClick = () => {
-        setIsHidden(true);
-    };
+  const handleClick = () => {
+    setIsHidden(true);
+  };
 
-    return (
-        <nav className="bg-gray-700  text-blue-100 p-4 text-center fixed lg:static w-full lg:w-64 lg:block">
-            <div className="lg:mt-48 lg:w-56 flex flex-wrap justify-center lg:fixed">
-                <div className="hidden lg:block">
-                    <Image
-                        src={profilePic}
-                        alt="picture of colin"
-                        className="rounded-full"
-                        width={130}
-                        height={130}
-                    />
-                </div>
-                <div className="block lg:hidden w-full">
-                    <button
-                        className="float-right"
-                        onClick={() => setIsHidden(!isHidden)}
-                    >
-                        <FontAwesomeIcon
-                            className="w-5 hover:text-white "
-                            icon={faBars}
-                        />
-                    </button>
-                </div>
-                <div
-                    className="w-full"
-                    style={{
-                        display:
-                            isHidden && windowDimensions.width < 1024
-                                ? "none"
-                                : "block",
-                    }}
-                >
-                    <Scrollspy
-                        items={[
-                            "about",
-                            "experience",
-                            "education",
-                            "projects",
-                            "skills",
-                        ]}
-                        currentClassName="font-bold mt-5 block text-white "
-                    >
-                        <li><Link 
-                            href="/#about"
-                            onClick={handleClick}
-                        >
-                            <span className={styles.navLink}>
-                                About
-                            </span>
-                            
-                        </Link></li>
+  return (
+    <nav className="bg-gray-700  text-blue-100 p-4 text-center fixed lg:static w-full lg:w-64 lg:block">
+      <div className="lg:mt-48 lg:w-56 flex flex-wrap justify-center lg:fixed">
+        <div className="hidden lg:block">
+          <Image
+            src={profilePic}
+            alt="picture of colin"
+            className="rounded-full"
+            width={130}
+            height={130}
+          />
+        </div>
+        <div className="block lg:hidden w-full">
+          <button
+            className="float-right"
+            onClick={() => setIsHidden(!isHidden)}
+          >
+            <FontAwesomeIcon className="w-5 hover:text-white " icon={faBars} />
+          </button>
+        </div>
+        <div
+          className="w-full"
+          style={{
+            display:
+              isHidden && windowDimensions.width < 1024 ? "none" : "block",
+          }}
+        >
+          <Scrollspy
+            items={["about", "experience", "education", "projects", "skills"]}
+            currentClassName="font-bold mt-5 block text-white "
+          >
+            <li>
+              <Link href="/#about" onClick={handleClick}>
+                <span className={styles.navLink}>About</span>
+              </Link>
+            </li>
 
-                        <li><Link
-                            href="/#experience"
-                            className={styles.navLink}
-                            onClick={handleClick}
-                        >
-                            <span className={styles.navLink}>
-                                Experience
-                            </span>
-                        </Link></li>
+            <li>
+              <Link
+                href="/#experience"
+                className={styles.navLink}
+                onClick={handleClick}
+              >
+                <span className={styles.navLink}>Experience</span>
+              </Link>
+            </li>
 
-                        <li><Link
-                            href="/#education"
-                            className={styles.navLink}
-                            onClick={handleClick}
-                        >
-                            <span className={styles.navLink}>
-                                Education
-                            </span>
-                        </Link></li>
+            <li>
+              <Link
+                href="/#education"
+                className={styles.navLink}
+                onClick={handleClick}
+              >
+                <span className={styles.navLink}>Education</span>
+              </Link>
+            </li>
 
-                        <li><Link
-                            href="/#projects"
-                            className={styles.navLink}
-                            onClick={handleClick}
-                        >
-                            <span className={styles.navLink}>
-                                Projects
-                            </span>
-                        </Link></li>
+            <li>
+              <Link
+                href="/#projects"
+                className={styles.navLink}
+                onClick={handleClick}
+              >
+                <span className={styles.navLink}>Projects</span>
+              </Link>
+            </li>
 
-                        <li><Link
-                            href="/#skills"
-                            className={styles.navLink}
-                            onClick={handleClick}
-                        >
-                            <span className={styles.navLink}>
-                                Skills
-                            </span>
-                        </Link></li>
-                   </Scrollspy>
-                </div>
-            </div>
-        </nav>
-    );
+            <li>
+              <Link
+                href="/#skills"
+                className={styles.navLink}
+                onClick={handleClick}
+              >
+                <span className={styles.navLink}>Skills</span>
+              </Link>
+            </li>
+          </Scrollspy>
+        </div>
+      </div>
+    </nav>
+  );
 }
 export default Nav;
