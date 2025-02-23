@@ -10,9 +10,7 @@ function About() {
         <h1 className="text-6xl lg:text-8xl font-bold">
           Colin <span className="text-blue-800"> Lin</span>
         </h1>
-        <p className="text-xl lg:text-2xl font-bold mt-1">
-          Cloud Full Stack Engineer
-        </p>
+        <p className="text-xl lg:text-2xl font-bold mt-1">Software Engineer</p>
         <p className="text-lg lg:text-xl font-medium mt-1">
           Computer Science Co-op at University of Toronto
         </p>
@@ -26,8 +24,8 @@ function About() {
           </a>
         </p>
         <p className="mt-7 text-gray-600">
-          I&apos;m an aspiring software developer with experience in both
-          frontend UX design and backend API development.
+          I&apos;m a Software Engineer with experience in both frontend UX
+          design and backend API development.
           <br /> I describe myself as someone who is ambitious, a quick learner,
           and has a passion for developing software with a positive social
           impact.
@@ -43,7 +41,7 @@ function About() {
         <div className="mt-7">
           <a href="https://github.com/l3n0ire" rel="noreferrer" target="_blank">
             <FontAwesomeIcon
-              className=" w-10 mr-5 inline-block hover:text-gray-500"
+              className="mr-5 inline-block hover:text-gray-500 text-5xl"
               icon={faGithub}
             />
           </a>
@@ -54,7 +52,7 @@ function About() {
             target="_blank"
           >
             <FontAwesomeIcon
-              className="w-10 inline-block hover:text-blue-600"
+              className="inline-block hover:text-blue-600 text-5xl"
               icon={faLinkedin}
             />
           </a>

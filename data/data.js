@@ -1,9 +1,16 @@
 let data = {
   experiences: [
     {
+      title: "Software Engineer",
+      company: "Stripe",
+      date: "October 2024 - Present",
+      link: "https://stripe.com/en-ca",
+      desc: ["ML Experience and Notebooks"],
+    },
+    {
       title: "Software Developer",
       company: "Konrad Group",
-      date: "September 2023 - Present",
+      date: "September 2023 - August 2024",
       link: "https://www.konrad.com/",
       desc: [
         "Developed new frontend features for a major airline's flight booking application using Vue.js, impacting over 1 million users",
@@ -184,7 +191,7 @@ let data = {
     databases: "MongoDB, MySQL, PostgreSQL, Neo4j",
     concepts:
       "RESTful APIs, Object Oriented Programming, MVC Architecture, Microservices, Agile Scrum",
-    tools: "Linux, Git, Jira, Heroku, Docker, WordPress, Postman",
+    tools: "AWS, Linux, Git, Jira, Docker, Databricks, WordPress, Postman",
     softSkills: "Collaboration, Leadership, Teamwork",
   },
 };

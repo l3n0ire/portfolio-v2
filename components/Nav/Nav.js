@@ -5,7 +5,6 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
-import Scrollspy from "react-scrollspy";
 
 function Nav() {
   const [isHidden, setIsHidden] = useState(true);
@@ -52,10 +51,7 @@ function Nav() {
               isHidden && windowDimensions.width < 1024 ? "none" : "block",
           }}
         >
-          <Scrollspy
-            items={["about", "experience", "education", "projects", "skills"]}
-            currentClassName="font-bold mt-5 block text-white "
-          >
+          <ul>
             <li>
               <Link href="/#about" onClick={handleClick}>
                 <span className={styles.navLink}>About</span>
@@ -101,7 +97,7 @@ function Nav() {
                 <span className={styles.navLink}>Skills</span>
               </Link>
             </li>
-          </Scrollspy>
+          </ul>
         </div>
       </div>
     </nav>
