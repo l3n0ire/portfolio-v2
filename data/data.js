@@ -5,7 +5,14 @@ let data = {
       company: "Stripe",
       date: "October 2024 - Present",
       link: "https://stripe.com/en-ca",
-      desc: ["ML Experience and Notebooks"],
+      desc: [
+        "Built an internal Python/Java platform to host agentic AI applications, scaling to 170k+ weekly executions and automating Stripe merchant risk-review workflows with $4.25M+ in annualized business impact",
+        "Contributed core components to an internal LLM gateway built on LiteLLM, supporting 3B+ tokens/day across 60+ internal use cases and integrating GPT-5, Gemini, and Claude models",
+        "Built and scaled an internal LLM chat UI by extending LibreChat (React/Node.js), reaching 6000+ weekly active users and adding a Go proxy for secure authentication and identity",
+        "Reduced LLM costs by 80% by implementing prompt caching and execution controls for internal coding agents, saving$800k/year and improving system reliability",
+        "Pioneered an internal no-code Agent Runtime, using a Python agentic platform and a no-code UI to enable 400+ agents with MCP tool access for non-engineers",
+        "Resolved a high-severity production incident in 74 minutes by diagnosing Redis rate-limiting failures and re-architecting the deployment to stabilize a platform used by 1000+ engineers",
+      ],
     },
     {
       title: "Software Developer",
@@ -185,13 +192,15 @@ let data = {
     },
   ],
   skills: {
-    languages: "Java, Python, C, HTML, CSS, JavaScript, TypeScript SQL, PHP",
+    languages:
+      "Python, Go, TypeScript, JavaScript, Java, HTML, CSS, C, Swift, Kotlin, PHP",
     frameworks:
-      "Spring Boot, Node.js, Express.js, Next.js, Vue.js, React, Angular, jQuery, Bootstrap, Tailwind CSS, Pandas, NumPy",
+      "React, Node.js, Redux, Next.js, NumPy, pandas, Spring Boot, Selenium, Angular, Vue.js",
     databases: "MongoDB, MySQL, PostgreSQL, Neo4j",
     concepts:
       "RESTful APIs, Object Oriented Programming, MVC Architecture, Microservices, Agile Scrum",
-    tools: "AWS, Linux, Git, Jira, Docker, Databricks, WordPress, Postman",
+    tools:
+      "Git, Docker, Linux, AWS, Databricks, Postman, nginx, Firebase, Jira",
     softSkills: "Collaboration, Leadership, Teamwork",
   },
 };
