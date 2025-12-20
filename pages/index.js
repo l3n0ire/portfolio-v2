@@ -8,6 +8,8 @@ import Education from "../components/Education/Education";
 import Project from "../components/Project/Project";
 import Skills from "../components/Skills/Skills";
 import data from "../data/data";
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
     let experiences = data.experiences.map((experience,index) => {
@@ -18,6 +20,8 @@ export default function Home() {
     });
     return (
         <div className="relative min-h-screen lg:flex">
+            <Analytics/>
+            <SpeedInsights/>
             <Head>
                 <title>Colin Lin</title>
                 <meta name="description" content="Colin Lin's Portfolio" />
