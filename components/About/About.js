@@ -41,7 +41,7 @@ function About() {
           Resume PDF
         </a>
         <div className="mt-7">
-          <a href="https://github.com/l3n0ire" rel="noreferrer" target="_blank">
+          <a href="https://github.com/l3n0ire" rel="noreferrer" target="_blank" aria-label="github">
             <FontAwesomeIcon
               className="mr-5 inline-block hover:text-gray-500 text-5xl"
               icon={faGithub}
@@ -52,6 +52,7 @@ function About() {
             href="https://www.linkedin.com/in/colin-lin-2001/"
             rel="noreferrer"
             target="_blank"
+            aria-label="linkedin"
           >
             <FontAwesomeIcon
               className="inline-block hover:text-blue-600 text-5xl"

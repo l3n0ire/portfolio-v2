@@ -40,6 +40,7 @@ function Nav() {
           <button
             className="float-right"
             onClick={() => setIsHidden(!isHidden)}
+            aria-label="menu"
           >
             <FontAwesomeIcon className="w-5 hover:text-white " icon={faBars} />
           </button>
