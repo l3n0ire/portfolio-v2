@@ -6,12 +6,13 @@ let data = {
       date: "October 2024 - Present",
       link: "https://stripe.com/en-ca",
       desc: [
-        "Built an internal Python/Java platform to host agentic AI applications, scaling to 170k+ weekly executions and automating Stripe merchant risk-review workflows with $4.25M+ in annualized business impact",
-        "Contributed core components to an internal LLM gateway built on LiteLLM, supporting 3B+ tokens/day across 60+ internal use cases and integrating GPT-5, Gemini, and Claude models",
-        "Built and scaled an internal LLM chat UI by extending LibreChat (React/Node.js), reaching 6000+ weekly active users and adding a Go proxy for secure authentication and identity",
-        "Reduced LLM costs by 80% by implementing prompt caching and execution controls for internal coding agents, saving$800k/year and improving system reliability",
+        "Built and scaled an internal AI agent platform powering 170K+ weekly executions, automating merchant risk review workflows and driving $4.25M+ annualized impact (Python, Java)",
+        "Led development of an internal ChatGPT like LLM chat platform with 10K+ monthly active users, enabling MCP tool access, file/image uploads, and threaded conversations (React, TypeScript, Node.js, Go)",
+        "Contributed to core infrastructure for a centralized LLM gateway handling 13B+ tokens/day across 250+ use cases, enabling model routing (OpenAI, Azure, AWS Bedrock), token/cost observability, and rate limiting",
+        "Reduced LLM inference costs by 47% ($5.6M/year) by implementing Anthropic prompt caching with checkpoints across system prompts, tools, and conversation history to maximize cache hit rates in AI agent workloads",
         "Pioneered an internal no-code Agent Runtime, using a Python agentic platform and a no-code UI to enable 400+ agents with MCP tool access for non-engineers",
-        "Resolved a high-severity production incident in 74 minutes by diagnosing Redis rate-limiting failures and re-architecting the deployment to stabilize a platform used by 1000+ engineers",
+        "Led resolution of a high severity production incident in 74 minutes impacting 100+ engineers by diagnosing a cascading failure across client hooks, rate limiting, and Redis, and implementing fixes to prevent recurrence",
+        "Reduced MongoDB latency from 9s to < 1s by profiling slow queries, validating bottlenecks via workload replay, and applying targeted index optimizations under production load"
       ],
     },
     {
