@@ -10,7 +10,6 @@ let data = {
         "Led development of an internal ChatGPT like LLM chat platform with 10K+ monthly active users, enabling MCP tool access, file/image uploads, and threaded conversations (React, TypeScript, Node.js, Go)",
         "Contributed to core infrastructure for a centralized LLM gateway handling 13B+ tokens/day across 250+ use cases, enabling model routing (OpenAI, Azure, AWS Bedrock), token/cost observability, and rate limiting",
         "Reduced LLM inference costs by 47% ($5.6M/year) by implementing Anthropic prompt caching with checkpoints across system prompts, tools, and conversation history to maximize cache hit rates in AI agent workloads",
-        "Pioneered an internal no-code Agent Runtime, using a Python agentic platform and a no-code UI to enable 400+ agents with MCP tool access for non-engineers",
         "Led resolution of a high severity production incident in 74 minutes impacting 100+ engineers by diagnosing a cascading failure across client hooks, rate limiting, and Redis, and implementing fixes to prevent recurrence",
         "Reduced MongoDB latency from 9s to < 1s by profiling slow queries, validating bottlenecks via workload replay, and applying targeted index optimizations under production load"
       ],
