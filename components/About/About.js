@@ -26,11 +26,8 @@ function About() {
           </a>
         </p>
         <p className="mt-7 text-gray-600">
-          I&apos;m a Software Engineer with experience in both frontend UX
-          design and backend API development.
-          <br /> I describe myself as someone who is ambitious, a quick learner,
-          and has a passion for developing software with a positive social
-          impact.
+          I&apos;m a Software Engineer working on AI Agents and LLM-powered systems, with experience across frontend and backend.
+          <br /> I focus on building reliable, production-ready infrastructure and user-facing applications that deliver real-world impact. 
         </p>
         <a
           href="./resume_colin_lin.pdf"
