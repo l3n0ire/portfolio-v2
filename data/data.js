@@ -6,7 +6,7 @@ let data = {
       date: "October 2024 - Present",
       link: "https://stripe.com/en-ca",
       desc: [
-        "Built and scaled an internal AI agent platform powering 170K+ weekly executions, automating merchant risk review workflows and driving $4.25M+ annualized impact (Python, Java)",
+        "Built and scaled an internal AI agent platform powering 170K+ weekly executions, automating merchant risk review workflows and driving $4.25M+ annualized impact (Python, Java, LangChain, LangGraph)",
         "Led development of an internal ChatGPT like LLM chat platform with 10K+ monthly active users, enabling MCP tool access, file/image uploads, and threaded conversations (React, TypeScript, Node.js, Go)",
         "Contributed to core infrastructure for a centralized LLM gateway handling 13B+ tokens/day across 250+ use cases, enabling model routing (OpenAI, Azure, AWS Bedrock), token/cost observability, and rate limiting",
         "Reduced LLM inference costs by 47% ($5.6M/year) by implementing Anthropic prompt caching with checkpoints across system prompts, tools, and conversation history to maximize cache hit rates in AI agent workloads",
@@ -193,14 +193,14 @@ let data = {
   ],
   skills: {
     languages:
-      "Python, Go, TypeScript, JavaScript, Java, HTML, CSS, C, Swift, Kotlin, PHP",
+      "Python, TypeScript, JavaScript, Go, Java, HTML, CSS, C, Swift, Kotlin, PHP",
     frameworks:
-      "React, Node.js, Redux, Next.js, NumPy, pandas, Spring Boot, Selenium, Angular, Vue.js",
+      "React, Node.js, LangChain, LangGraph, Next.js, NumPy, pandas, Spring Boot, Angular, Vue.js",
     databases: "MongoDB, MySQL, PostgreSQL, Neo4j",
     concepts:
       "RESTful APIs, Object Oriented Programming, MVC Architecture, Microservices, Agile Scrum",
     tools:
-      "Git, Docker, Linux, AWS, Databricks, Postman, nginx, Firebase, Jira",
+      "Git, Docker, Linux, AWS, Splunk, Postman, nginx, Firebase, Jira",
     softSkills: "Collaboration, Leadership, Teamwork",
   },
 };

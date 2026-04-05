@@ -14,7 +14,7 @@ function About() {
           Software Engineer at Stripe
         </p>
         <p className="text-lg lg:text-xl font-medium mt-1">
-          Computer Science at University of Toronto
+          AI Agents & LLM Infrastructure
         </p>
         <p>
           <span className="mr-1">Toronto ON |</span>
